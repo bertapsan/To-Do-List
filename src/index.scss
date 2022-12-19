@@ -1,0 +1,24 @@
+$success:#527ee8;
+$danger: #f8c254;
+$secondary: #ff746e;
+
+@import "bootstrap";
+@import "bootstrap-icons";
+@import "aos/dist/aos.css";
+
+body {
+  background-color: $light;
+}
+
+div#main {
+  min-height: calc(100vh - 94px - 2rem);
+} 
+
+.btn-succesfull{
+  @extend .btn-outline-success;
+}
+
+
+.footer {
+  height: 40px;
+}
