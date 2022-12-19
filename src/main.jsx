@@ -10,7 +10,7 @@ import './index.scss'
 
 const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/To-Do-List",
       element: <App />,
     },
   ]);
