@@ -4,6 +4,7 @@ import Formulario from "./Formulario";
 import Listado from "./Listado";
 import {v4 as uuidV4} from "uuid";
 import AOS from "aos"
+import logo from "../assets/To_Do_List_logo.png"
 
 
 const App = () => {
@@ -49,7 +50,7 @@ const App = () => {
 
     return (
     <>
-     <img src="../src/To_Do_List_logo.png" alt="To Do List logo" className="img-fluid w-100 logo" data-aos="zoom-in" data-aos-duration="1500"/>
+     <img src={logo} alt="To Do List logo" className="img-fluid w-100 logo" data-aos="zoom-in" data-aos-duration="1500"/>
      <h1 className="pt-4">To Do List</h1>
      <div className="row">
       <div className="col-12 col-lg-6">
